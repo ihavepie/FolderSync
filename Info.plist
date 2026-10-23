@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>zh_CN</string>
+	<key>CFBundleExecutable</key>
+	<string>FolderSync</string>
+	<key>CFBundleIdentifier</key>
+	<string>local.foldersync.app</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>FolderSync</string>
+	<key>CFBundleDisplayName</key>
+	<string>FolderSync</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSSupportsAutomaticTermination</key>
+	<false/>
+	<!--
+	  受 TCC 保护的目录（桌面 / 文稿 / 下载 / 外置盘 / 网络卷）需要用途说明。
+	  原来这几条一条都没有：访问这些目录时系统给不出正常的授权提示，
+	  表现就是"这个文件夹是锁死的、打开是空的"。
+	-->
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>FolderSync 要在窗口里实时展示你选择的「桌面」文件夹的内容。</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>FolderSync 要在窗口里实时展示你选择的「文稿」文件夹的内容。</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>FolderSync 要在窗口里实时展示你选择的「下载」文件夹的内容。</string>
+	<key>NSRemovableVolumesUsageDescription</key>
+	<string>FolderSync 要展示你选择的外置盘 / 移动硬盘上的文件夹。</string>
+	<key>NSNetworkVolumesUsageDescription</key>
+	<string>FolderSync 要展示你选择的网络卷（含云盘目录）上的文件夹。</string>
+</dict>
+</plist>

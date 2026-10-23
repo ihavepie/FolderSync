@@ -1,0 +1,13 @@
+# 编译缓存（202M）与签名证书，不进版本库
+.modulecache/
+.signing/
+
+# 构建产物
+build/
+dist/
+*.app
+
+# macOS / 编辑器
+.DS_Store
+.vscode/
+.idea/
